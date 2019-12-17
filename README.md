@@ -1,4 +1,4 @@
-#Very simple HTTP request in Kotlin using Spring framework and OkHttp client
+# Very simple HTTP request in Kotlin using Spring framework and OkHttp client
 
 Accompanying blog post: TODO
 
