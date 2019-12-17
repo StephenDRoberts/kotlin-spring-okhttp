@@ -19,7 +19,7 @@ class Repository(){
 
     fun createRequest(): Request {
         return Request.Builder()
-                .url("https://www.api-football.com/demo/api/v2/leagues/league/524")
+                .url("https://www.api-football.com/demo/api/v2/teams/league/524")
                 .build()
     }
 
