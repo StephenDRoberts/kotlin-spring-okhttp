@@ -3,7 +3,7 @@
 Accompanying blog post: TODO
 
 Step:
-* Set up project (eg using [spring initializer](https://start.spring.io/)
+* Set up project (eg using [spring initializer](https://start.spring.io/))
 * Import OkHttp library (see build.gradle.kts file)
 * Create a class for our HTTP call
 * Build a request - pass in a url and any other info you may need (eg http headers)
