@@ -3,10 +3,10 @@ package com.example.httprequest
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
-import org.springframework.stereotype.Component
+import org.springframework.stereotype.Repository
 import javax.annotation.PostConstruct
 
-@Component
+@Repository
 class Repository(){
 
     @PostConstruct
