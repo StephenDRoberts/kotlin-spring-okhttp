@@ -15,7 +15,6 @@ class Repository(){
     fun makeRequest() {
         val okHttpClient = OkHttpClient()
         val parsedResponse = parseResponse(okHttpClient.newCall(createRequest()).execute())
-
         println(parsedResponse)
     }
 
@@ -29,5 +28,4 @@ class Repository(){
         val body = response.body?.string() ?: ""
         return body
     }
-
 }

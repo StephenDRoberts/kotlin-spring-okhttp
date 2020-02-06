@@ -1,6 +1,6 @@
 # Very simple HTTP request in Kotlin using Spring framework and OkHttp client
 
-Accompanying blog post: TODO
+[Accompanying blog post](https://codingrabbithole.com/kotlin-get-api-data-using-okhttp/)
 
 Step:
 * Set up project (eg using [spring initializer](https://start.spring.io/))
