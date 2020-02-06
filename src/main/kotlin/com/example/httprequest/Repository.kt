@@ -3,13 +3,15 @@ package com.example.httprequest
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
+import org.springframework.scheduling.annotation.EnableScheduling
+import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Repository
-import javax.annotation.PostConstruct
 
+@EnableScheduling
 @Repository
 class Repository(){
 
-    @PostConstruct
+    @Scheduled(initialDelay = 0, fixedDelay = 24*60*60*1000)
     fun makeRequest() {
         val okHttpClient = OkHttpClient()
         val parsedResponse = parseResponse(okHttpClient.newCall(createRequest()).execute())
